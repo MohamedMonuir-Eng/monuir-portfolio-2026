@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="MONUIR - Creative Video Editor and Visual Content Creator based in Alexandria, Egypt.">
+    <meta name="author" content="Mohamed Monuir">
+
+    <title>MONUIR | Creative Video Editor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <a href="#home" class="logo">MONUIR<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#work">My Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobileMenu">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu" id="mobileMenu">
+
+            <a href="#home">Home</a>
+            <a href="#work">My Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="subtitle">
+                VIDEO EDITOR & CONTENT CREATOR
+            </p>
+
+            <h1>
+                I CREATE<br>
+                <span>VISUAL STORIES.</span>
+            </h1>
+
+            <p class="description">
+                Turning raw footage into powerful visual experiences.
+                Creative editing, cinematic visuals and storytelling.
+            </p>
+
+            <a href="#work" class="btn">
+                EXPLORE MY WORK ↗
+            </a>
+
+        </div>
+
+        <!-- PROFILE IMAGE -->
+        <div class="hero-image">
+
+            <img
+                src="assast/photos/monuir-profile.png"
+                alt="Mohamed Monuir - Creative Video Editor"
+                class="profile-image"
+                loading="eager">
+
+        </div>
+
+    </section>
+
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="new-gallery" id="work">
+
+        <div class="gallery-heading">
+
+            <span>MY CREATIVE WORLD</span>
+
+            <h2>
+                SELECTED <span>WORKS.</span>
+            </h2>
+
+            <p>
+                Video Editing, Motion Graphics & Visual Design
+            </p>
+
+        </div>
+
+
+        <!-- FILTER BUTTONS -->
+        <div class="gallery-filters">
+
+            <button class="filter-btn active" type="button" data-filter="all">
+                ALL
+            </button>
+
+            <button class="filter-btn" type="button" data-filter="video">
+                VIDEOS
+            </button>
+
+            <button class="filter-btn" type="button" data-filter="motion">
+                MOTION
+            </button>
+
+            <button class="filter-btn" type="button" data-filter="design">
+                DESIGNS
+            </button>
+
+        </div>
+
+
+        <!-- PROJECTS -->
+        <div class="gallery-grid">
+
+            <!-- VIDEO 1 -->
+            <div class="work-card" data-category="video">
+
+                <video controls preload="metadata">
+                    <source
+                        src="assast/video/ادم للعطور - إعلان كومبو v1.mp4"
+                        type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+
+                <div class="work-info">
+                    <span>VIDEO EDITING</span>
+                    <h3>Adam Perfumes</h3>
+                    <p>Commercial Advertisement</p>
+                </div>
+
+            </div>
+
+
+            <!-- VIDEO 2 -->
+            <div class="work-card" data-category="motion">
+
+                <video controls preload="metadata">
+                    <source
+                        src="assast/video/الجودي للتشطيبات - إعلان موشن v2.mp4"
+                        type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+
+                <div class="work-info">
+                    <span>MOTION GRAPHICS</span>
+                    <h3>Al Judy Finishing</h3>
+                    <p>Motion Advertisement</p>
+                </div>
+
+            </div>
+
+
+            <!-- VIDEO 3 -->
+            <div class="work-card" data-category="motion">
+
+                <video controls preload="metadata">
+                    <source
+                        src="assast/video/تمارا كلين - إعلان موشن v1.mp4"
+                        type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+
+                <div class="work-info">
+                    <span>MOTION GRAPHICS</span>
+                    <h3>Tamara Clean</h3>
+                    <p>Motion Advertisement</p>
+                </div>
+
+            </div>
+
+
+            <!-- IMAGE 1 -->
+            <div class="work-card" data-category="design">
+
+                <img
+                    src="assast/photos/King Tal - بوست 3 الشحن لكل المحافظات v2.png"
+                    alt="King Tal Social Media Design"
+                    loading="lazy">
+
+                <div class="work-info">
+                    <span>SOCIAL MEDIA DESIGN</span>
+                    <h3>King Tal</h3>
+                    <p>Social Media Campaign</p>
+                </div>
+
+            </div>
+
+
+            <!-- IMAGE 2 -->
+            <div class="work-card" data-category="design">
+
+                <img
+                    src="assast/photos/King Tal - بوست 6 مجاري الأدراج v2.png"
+                    alt="King Tal Product Design"
+                    loading="lazy">
+
+                <div class="work-info">
+                    <span>SOCIAL MEDIA DESIGN</span>
+                    <h3>King Tal</h3>
+                    <p>Product Design</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT ME -->
+    <section class="about-section" id="about">
+
+        <div class="about-content">
+
+            <span class="section-label">
+                GET TO KNOW ME
+            </span>
+
+            <h2>
+                ABOUT <span>ME.</span>
+            </h2>
+
+            <p>
+                I'm Mohamed Monuir, a creative video editor and
+                visual content creator based in Alexandria, Egypt.
+                I work with Adobe Premiere Pro and After Effects
+                to create engaging videos, motion graphics and
+                social media content.
+            </p>
+
+            <p>
+                I'm also a BIS student at Aboukir Higher Institutes,
+                passionate about creativity, visual storytelling
+                and developing new skills.
+            </p>
+
+            <div class="about-skills">
+
+                <span>Video Editing</span>
+                <span>Motion Graphics</span>
+                <span>Adobe Premiere Pro</span>
+                <span>Adobe After Effects</span>
+                <span>Social Media Design</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+
+        <span class="section-label">
+            LET'S WORK TOGETHER
+        </span>
+
+        <h2>
+            HAVE A PROJECT IN <span>MIND?</span>
+        </h2>
+
+        <p>
+            Let's create something amazing together.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="tel:01127061294">
+                Call Me
+            </a>
+
+            <a href="mailto:mohamedmonuir531@gmail.com">
+                Email Me
+            </a>
+
+            <a
+                href="https://wa.me/201127061294"
+                target="_blank"
+                rel="noopener noreferrer">
+                WhatsApp
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHATSAPP FLOATING BUTTON -->
+    <a
+        href="https://wa.me/201127061294"
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contact me on WhatsApp">
+
+        WhatsApp
+
+    </a>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
